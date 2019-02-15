@@ -3,7 +3,7 @@
 	margin:0px;
 	padding: 0px;
 	text-decoration: none;
-	font-family: "Open Sans", Verdana;
+	font-family: 'Raleway', sans-serif;
 }
 
 html, body{
@@ -30,25 +30,30 @@ body{
 #main-header{
 	background: white;
 	height: 100px;
-	line-height: 85px;
+	line-height: 75px;
 }
 
 #logo{
-	width: 63%;
+	width: 30%;
 	float: left;
+	line-height: 18px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 
 }
 
 #logo h1{
 	font-weight:bold;
-	font-size:25px;
+	font-size:20px;
 	color: #a22a86;
 
 }
 
 #menu{
-	width: 380px;
-	float:left;
+	width: 550px;
+	float:right;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 
 #menu ul li{
@@ -70,16 +75,16 @@ body{
 /*Slider*/
 
 #slider{
-	height: 300px;
+	height: 150px;
 	background: #a22a86;
 }
 
 #slider h2{
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
 	color:white;
-	line-height: 290px;
-	text-shadow: 0px 0px 6px black;
+	padding-top: 35px;
+	
 
 }
 
@@ -122,16 +127,149 @@ body{
 	width: 85%;
 	margin:0px auto;
 
+}
+.categorias{
+	width: 23%;
+	text-align: left;
+	float:left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 5px;
+	justify-content: center;
+
 
 }
 
 /*Videos*/
 
 .video iframe {
-	width: 80%;
-	height: 170px;
+	width: 100%;
+	height: 250px;
+
 
 }
+
+.video{
+	width: 100%;
+	padding-top: 10px:
+	padding-bottom:10px;
+	margin:0  auto;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.video .box{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	background: #a22a86;
+	margin:5px;
+	box-sizing: border-box;
+	display: inline-block;
+	
+
+
+}
+
+.video .box .imgBox{
+	position: relative;
+	overflow: hidden;
+
+}
+
+.video .box .imgBox img{
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.video .box:hover .imgBox img{
+	transform:scale(1.2);
+}
+
+.video .box .details{
+	position:absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,.8);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+
+.video .box:hover .details{
+	transform: scaleY(1);
+	
+}
+
+
+.video .box .details .content-video{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 10px;
+	color:#fff;
+	
+}
+
+.video .box .details .content-video h2{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+
+}
+
+.video .box .details .content-video p{
+	margin:10px 0 0;
+	padding: 5px;
+	color: #fff;
+	align-content: center;
+}
+
+#intro{
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+
+.btn1 {
+	border:1px solid #a22a86;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor:pointer;
+	margin:0px;
+	transition: .8s;
+	position:relative;
+	overflow: hidden;
+	text-decoration-color: black;
+	
+}
+
+.btn1:hover{
+	color:#a22a86;
+	height: 180%;
+}
+
+a{
+  color: black;
+}
+a:hover{
+  color: #a22a86;
+}
+
+a:active{
+  color: blue;
+}
+
+
+
+
+
+
 
 /*Footer*/
 
@@ -177,13 +315,25 @@ body{
 	.container{
 		width: 95%;
 	}
+	#slider h2{
+		font-size: 30px;
+		line-height: 30px;
+		margin-top: 20px;
+
+	}	
+	
+	#slider{
+		overflow: hidden;
+		height: 150px;
+		
+	}	
 }
 
 
 @media (max-width: 1085px){
 	#main-header{
-		height: 70px;
-		line-height: 65px;
+		height: 50px;
+		line-height: 35px;
 	}
 	#logo{
 		width: 60%;
@@ -207,7 +357,7 @@ body{
 	#slider h2{
 		font-size: 30px;
 		line-height: 30px;
-		margin-top: 60px;
+		margin-top: 5px;
 
 	}	
 }
@@ -215,17 +365,17 @@ body{
 	#slider h2{
 		font-size: 25px;
 		line-height: 30px;
-		margin-top: 60px;
+		margin-top: 5px;
 
 	}	
 
 }
 
 @media (max-width: 780px){
-	.service, .video{
-		width: 70%;
+	.service, .video, .categorias{
+		width: 100%;
 		float:none;
-		margin: 0px auto;
+		margin: 0 auto;
 		margin-top: 20px;
 		margin-bottom: 40px;
 	}
@@ -240,8 +390,8 @@ body{
 	}
 
 	.video iframe{
-		width: 80%;
-		height: 230px;
+		width: 100%;
+		height: 250px;
 	}
 
 
@@ -249,7 +399,7 @@ body{
 
 @media (max-width: 377px){
 
-	#meu ul li{
+	#menu ul li{
 		margin-left: 10px;
 		margin-right: 10px;
 
@@ -260,24 +410,29 @@ body{
 		margin:0px auto;
 	}
 	#menu{
-		width: 100%;
+		width: 80%;
 		text-align: center;
-		margin-left: 4%;
-		margin-right: 4%;
+		margin-left: 3%;
+		margin-right: 3%;
 	}
 	#slider h2{
-		margin-top: 40px;
+		margin-top: 10px;
 
 	}
 
 	.service, .video{
-		width: 90%;
+		width: 100%;
 		
 	}
 	.video iframe{
-		width: 80%;
-		height: 140px;
-	}		
+		width: 100%;
+		height: 250px;
+	}	
+
+	
+
+
+}	
 }
 
 @media (max-width: 345px){

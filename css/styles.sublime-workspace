@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"identi",
+				"identity_user_id"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
 				"max",
 				"max-width\tproperty"
 			],
@@ -14,10 +38,6 @@
 			[
 				"tran",
 				"transform\tproperty"
-			],
-			[
-				"margin",
-				"margin-right\tproperty"
 			],
 			[
 				"marg",
@@ -100,8 +120,21 @@
 	},
 	"file_history":
 	[
-		"/Applications/XAMPP/xamppfiles/htdocs/www/css/styles.css",
+		"/Users/gallo/Documents/curso-mean-social/api/index.js",
+		"/Users/gallo/Documents/curso-mean-social/api/controllers/user.js",
+		"/Users/gallo/Documents/curso-mean-social/api/app.js",
+		"/Users/gallo/Documents/curso-mean-social/api/services/jwt.js",
+		"/Users/gallo/Documents/curso-mean-social/api/middlewares/authenticated.js",
+		"/Users/gallo/Documents/curso-mean-social/api/models/user.js",
+		"/Users/gallo/Documents/curso-mean-social/api/models/message.js",
+		"/Users/gallo/Documents/curso-mean-social/api/models/follow.js",
+		"/Users/gallo/Documents/curso-mean-social/api/models/publication.js",
+		"/Users/gallo/Documents/curso-mean-social/api/package.json",
 		"/Applications/XAMPP/xamppfiles/htdocs/www/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/sw.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/manifest.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/css/styles.css",
 		"/Users/gallo/Desktop/index.html",
 		"/Users/gallo/Downloads/RadarChart.html",
 		"/Users/gallo/Desktop/Graficas Estudio Testimonios/RadarComparativoActores.html",
@@ -124,7 +157,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{

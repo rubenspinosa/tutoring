@@ -56,7 +56,6 @@ body{
 	text-transform: uppercase;
 	font-size: 12px;
 	justify-content:center;
-	
 }
 
 #menu ul li{
@@ -352,11 +351,8 @@ a:active{
 		margin:0px auto;
 	}
 	#menu{
-		width: 100%;
-	float:center;
-	text-transform: uppercase;
-	font-size: 12px;
-	justify-content:center;
+		float: none;
+		margin:0px auto;
 	}
 	#slider{
 		overflow: hidden;
@@ -420,10 +416,9 @@ a:active{
 	}
 	#menu{
 		width: 100%;
-	float:center;
-	text-transform: uppercase;
-	font-size: 12px;
-	justify-content:center;
+		text-align: center;
+		margin-left: 3%;
+		margin-right: 3%;
 	}
 	#slider h2{
 		margin-top: 10px;

@@ -4,6 +4,86 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"top",
+				"margin-top\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bor",
+				"border-left\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"te",
+				"text-transform\tproperty"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"trans",
+				"translateY()\ttransform"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
 				"identi",
 				"identity_user_id"
 			],
@@ -24,10 +104,6 @@
 				"function"
 			],
 			[
-				"margin",
-				"margin-bottom\tproperty"
-			],
-			[
 				"max",
 				"max-width\tproperty"
 			],
@@ -36,16 +112,8 @@
 				"min-width\tproperty"
 			],
 			[
-				"tran",
-				"transform\tproperty"
-			],
-			[
 				"marg",
 				"margin-top\tproperty"
-			],
-			[
-				"pad",
-				"padding-bottom\tproperty"
 			],
 			[
 				"paddi",
@@ -66,10 +134,6 @@
 			[
 				"text",
 				"text-align\tproperty"
-			],
-			[
-				"font",
-				"font-size\tproperty"
 			],
 			[
 				"heit",
@@ -120,6 +184,16 @@
 	},
 	"file_history":
 	[
+		"/Applications/XAMPP/xamppfiles/htdocs/www/css/styles.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/2.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/index2.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/css/style2.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/css/stylemenu.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/menu.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/stylemenu.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/css/menu.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/img/Albino.png",
 		"/Users/gallo/Documents/curso-mean-social/api/index.js",
 		"/Users/gallo/Documents/curso-mean-social/api/controllers/user.js",
 		"/Users/gallo/Documents/curso-mean-social/api/app.js",
@@ -130,11 +204,9 @@
 		"/Users/gallo/Documents/curso-mean-social/api/models/follow.js",
 		"/Users/gallo/Documents/curso-mean-social/api/models/publication.js",
 		"/Users/gallo/Documents/curso-mean-social/api/package.json",
-		"/Applications/XAMPP/xamppfiles/htdocs/www/index.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/www/sw.js",
 		"/Applications/XAMPP/xamppfiles/htdocs/www/main.js",
 		"/Applications/XAMPP/xamppfiles/htdocs/www/manifest.json",
-		"/Applications/XAMPP/xamppfiles/htdocs/www/css/styles.css",
 		"/Users/gallo/Desktop/index.html",
 		"/Users/gallo/Downloads/RadarChart.html",
 		"/Users/gallo/Desktop/Graficas Estudio Testimonios/RadarComparativoActores.html",
@@ -157,7 +229,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -195,7 +267,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -229,10 +301,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "styles.sublime-project",
+	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
